@@ -1,0 +1,3 @@
+-El proyecto sigue sin corregir los comentarios del instructor
+-Renombrar el archivo con los integrantes del grupo
+-Mover el archivo del diseño final en una carpeta

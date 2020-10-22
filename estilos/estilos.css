@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/banner.png);
+  background-color: black;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a{
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "roboto";
+  color: white;
+}
+.textos-header{
+  font-family: "roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  height: 400px;
+}
+.textos-header h1{
+  font-size: 3em;
+  margin: 0 15px;
+  padding: 0 30px;
+}
+.textos-header h2{
+  font-size: 1.5em;
+  margin: 0 15px;
+  padding: 0 30px;
+}
+
+.s2{
+  display: flex;
+  height: 700px;
+}
+
+.im2{
+  position: relative;
+  margin-left: 30px;
+}
+
+.modelo{
+  width: 400px;
+  margin-left: 200px;
+}
+.cuadro{
+  position: absolute;
+  width: 250px;
+  margin-top: 250px;
+  right: 245px;
+}
+
+.tex2{
+  color: black;
+  width: 500px;
+  margin-left: 60px;
+  margin-top: 150px;
+  text-align: justify;
+  font-family:"roboto";
+ }
+ .d1{
+     color: black;
+     font-size: 40px;
+     margin-left: 50px;
+ }
+ .d2{
+     font-size: 20px;
+     margin-top:15px;
+     text-align: justify;
+ }
+
+
+.levels{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: black;
+  
+}
+
+.NIVCUR{
+  justify-content: center;
+  font-size: 3em;
+  font-family: "roboto";
+  color: red;
+  margin: 10px;
+
+}
+
+.fondo{
+  margin: 60px 0;
+  align-items: flex-end;
+  padding: 20px;
+}
+.tex-niv h2{
+  font-size: 40px;
+  color: white;
+  font-family: "roboto";
+  position: absolute;
+  margin-left: 650px;
+  margin-right: 100px;
+  margin-top: 130px;
+  text-align: end;
+}
+
+.niveles h3{
+  font-size: 2em;
+  color: red;
+  font-family: "roboto";
+  margin: 5px;
+  padding: 5px;
+}
+
+.niveles p{
+  font-size: 1em;
+  color: white;
+  font-family:"roboto";
+  text-align: justify;
+  padding: 10px;
+}
+
+.palla{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: end;
+}
+
+.textos-pallaro{
+  margin: 20px;
+  padding: 10px;
+  font-family: "roboto";
+  font-size: 2em;
+}
+
+.cursos{
+  width: 100%;
+  height: 100%;
+  background-color:black;
+  
+}
+.textos-cursos h2{
+  font-size: 3em;
+  font-family: "roboto";
+  color: white;
+  text-align: center;
+}
+.textos-cursos p{
+  padding: 20px;
+  font-size: 2em;
+  font-family: "roboto";
+  text-align: center;
+  color: white;
+}
+.imgcur{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.cursos a{
+  font-size: 2em;
+  font-family: "roboto";
+  text-decoration: none;
+  color: brown;
+  margin-left: 1000px;
+}
+
+.equipo{
+  margin: 50px auto;
+  width: 100%;
+  height: 100%;
+}
+.equipo h2{
+  font-size: 3em;
+  font-family: "roboto";
+  color:red;
+  text-align: center;
+}
+.equipo p{
+  font-size: 1em;
+  font-family: "roboto";
+  margin: auto 50px;
+  padding: 20px;
+}
+.img-equipo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nombres{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nombres h4{
+  font-size: 2em;
+  font-family: "roboto";
+  margin: 0 30px;
+}
+
+.foo{
+  display: flex;
+  background-color: black;
+  height: 200px;
+  color: white;
+}
+.redes{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.formu{
+  width: 500px;
+  height: 200px;
+}
+.formu input{
+  margin: 20px 20px; 
+  width: 200px;
+  height: 50px;
+
+}
+.formu p{
+  margin: 0 20px;
+  font-size: 1em;
+  font-family: "roboto";
+  color: white;
+}
+
